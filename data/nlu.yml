@@ -1,0 +1,85 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: out_of_scope
+  examples: |
+    - bla bla bla
+    - fsdfjsdlkfjskld
+    - what is this
+    - ha hahhahahhaha
+    - lol
+    - earth is round
+    - show me movie
+    - show me ticket to hollywood
+    - tell me a joke
+    - fuck you
+    - fuck off
+    - asshole
+    - fuck
+    - lets play football
+- intent: show_something
+  examples: |
+    - show me something
+    - can you show me anything interesting
+    - is there anything to show me
+    - show me
+    - do you have anything interesting to show me
+    - show something
+- intent: images
+  examples: |
+    - images
+    - show me images
+    - can you show me images
+    - image
+    - do you have any images to show me
+- intent: cards
+  examples: |
+    - cards
+    - card
+    - show me cards
+    - can you show me cards
+    - do you have cards to show me

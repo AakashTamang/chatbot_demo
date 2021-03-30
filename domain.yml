@@ -1,0 +1,22 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- out_of_scope
+- show_something
+- images
+- deny
+- cards
+- greet
+- goodbye
+- affirm
+actions:
+- action_goodbye
+- action_greeting
+- action_handle_fallback
+- action_nothing
+- action_out_of_scope
+- action_show_buttons
+- action_show_cards
+- action_show_images

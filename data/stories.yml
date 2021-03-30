@@ -1,0 +1,39 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: action_greeting
+
+- story: sad path 2
+  steps:
+  - intent: goodbye
+  - action: action_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: show_something
+  - action: action_show_buttons
+  - intent: images
+  - action: action_show_images
+
+- story: interactive_story_2
+  steps:
+  - intent: show_something
+  - action: action_show_buttons
+  - intent: cards
+  - action: action_show_cards
+
+- story: interactive_story_3
+  steps:
+  - intent: show_something
+  - action: action_show_buttons
+  - intent: deny
+  - action: action_nothing
+
+- story: interactive_story_1
+  steps:
+  - intent: out_of_scope
+  - action: action_out_of_scope
